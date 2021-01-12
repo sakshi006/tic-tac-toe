@@ -15,8 +15,8 @@ const output = document.querySelector(".output");
 const buttons = document.querySelector(".gif")
 
 
-const play1 = "🥵";
-const play2 = "🥶";
+const play1 = "🥵X";
+const play2 = "🥶O";
 
 
 var name1,name2;
@@ -73,13 +73,13 @@ function checkThrees(){
     // console.log(clicks);
     if((b1.value===b2.value && b2.value===b3.value) || (b1.value===b4.value && b4.value===b7.value)|| (b1.value===b5.value && b5.value===b9.value))
       {
-          if(b1.value==='🥵')
+          if(b1.value==='🥵X')
            {
               result1();
                clicks=1;
                clear();
            }
-          else if(b1.value==='🥶')
+          else if(b1.value==='🥶O')
            {
                result2();
                clicks=1;
@@ -88,13 +88,13 @@ function checkThrees(){
       }
     else if((b4.value===b5.value && b5.value===b6.value) || (b2.value===b5.value && b5.value===b8.value)|| (b3.value===b5.value && b5.value===b7.value))
     {
-        if(b5.value==='🥵')
+        if(b5.value==='🥵X')
         {
             result1();
             clicks=1;
             clear();
         }
-        else if(b5.value==='🥶')
+        else if(b5.value==='🥶O')
         {
            result2();
             clicks=1;
@@ -103,13 +103,13 @@ function checkThrees(){
     }
     else if((b9.value===b8.value && b8.value===b7.value) || (b9.value===b6.value && b6.value===b3.value))
     {
-        if(b9.value==='🥵')
+        if(b9.value==='🥵X')
         {
             result1();
             clicks=1;
             clear();
         }
-        else if(b9.value==='🥶')
+        else if(b9.value==='🥶O')
         {
             result2();
             clicks=1;
