@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+header{
+    /* padding: 0.1rem; */
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: pink;
+    border-bottom-left-radius:3rem;
+    border-top-right-radius:1rem;
+    box-shadow: 3px 5px 5px rgb(180, 97, 111);
+    margin-bottom: 1rem;
+}
+
+.head-txt{
+  font-size:xx-large;
+  font-weight:900;
+  border: 0.1rem solid black;
+  border-top-right-radius:1rem;
+  box-shadow: 3px 5px 5px rgb(180, 97, 111);
+}
+
+img{
+  padding:0rem ;
+  margin: -2rem;
+  width: 300px;
+  height: 180px;
+}
+
+
+section{
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+.player1,.player2{
+  height: 2rem;
+  width: 8rem;
+  border-radius: 2rem;
+  box-shadow: 3px 4px 3px black;
+  text-align: center;
+  font-family: inherit;
+  margin: 0.5rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.greeting1,.greeting2{
+  margin: 1rem;
+  text-shadow: 1px 1px 1px black;
+  color: pink;
+}
+
+.sec{
+  display: flex;
+  justify-content: center;
+  background: url("images/back.png");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  grid-gap: 1rem 1rem; 
+  height: 40vh;
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 1fr;
+}
+
+.box{
+    color: white;
+    text-align: center;
+    height: 1rem;
+}
+
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9 {
+      width: 6rem;
+      height: 6rem; 
+      text-align: center; 
+      cursor: pointer;
+      font-weight: bolder;
+      font-size: xx-large;
+      border-radius: 0.8rem;
+      background-color: blanchedalmond;
+      box-shadow: 6px 5px 2px rgb(54, 8, 16);
+      text-shadow: 3px 2px 2px rgb(54, 8, 16);
+  }
+
+
+  .output{
+    padding-bottom: 0.5rem;
+    margin: 1rem;
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: pink;
+
+  }
+
+
+  
+footer{
+  background-color: pink;
+  text-align: center;
+  bottom: 0;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.connect{
+  color: rgb(180, 97, 111) ;
+  padding-bottom: 0.5rem;
+  font-weight: bolder;
+  text-shadow: 1px 2px 2px black;
+  
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.2rem;
+  margin: 0.5rem;
+  color: rgb(160, 45, 83);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
