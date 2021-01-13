@@ -75,13 +75,13 @@ function checkThrees(){
       {
           if(b1.value==='🥵X')
            {
-            setTimeout(function(){ result1();},500);
+            setTimeout(function(){ result1();},300);
             clicks=1;
             setTimeout(function(){ clear();},1000);
            }
           else if(b1.value==='🥶O')
            {
-            setTimeout(function(){ result2();},500);
+            setTimeout(function(){ result2();},300);
             clicks=1;
             setTimeout(function(){ clear();},1000);
            }
@@ -90,13 +90,13 @@ function checkThrees(){
     {
         if(b5.value==='🥵X')
         {
-            setTimeout(function(){ result1();},500);
+            setTimeout(function(){ result1();},300);
             clicks=1;
             setTimeout(function(){ clear();},1000);
         }
         else if(b5.value==='🥶O')
         {
-           setTimeout(function(){ result2();},500);
+           setTimeout(function(){ result2();},300);
             clicks=1;
             setTimeout(function(){ clear();},1000);
         }
