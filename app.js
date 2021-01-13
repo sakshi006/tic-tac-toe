@@ -75,30 +75,30 @@ function checkThrees(){
       {
           if(b1.value==='🥵X')
            {
-              result1();
-               clicks=1;
-               clear();
+            setTimeout(function(){ result1();},500);
+            clicks=1;
+            setTimeout(function(){ clear();},1000);
            }
           else if(b1.value==='🥶O')
            {
-               result2();
-               clicks=1;
-               clear();
+            setTimeout(function(){ result2();},500);
+            clicks=1;
+            setTimeout(function(){ clear();},1000);
            }
       }
     else if((b4.value===b5.value && b5.value===b6.value) || (b2.value===b5.value && b5.value===b8.value)|| (b3.value===b5.value && b5.value===b7.value))
     {
         if(b5.value==='🥵X')
         {
-            result1();
+            setTimeout(function(){ result1();},500);
             clicks=1;
-            clear();
+            setTimeout(function(){ clear();},1000);
         }
         else if(b5.value==='🥶O')
         {
-           result2();
+           setTimeout(function(){ result2();},500);
             clicks=1;
-            clear();
+            setTimeout(function(){ clear();},1000);
         }
     }
     else if((b9.value===b8.value && b8.value===b7.value) || (b9.value===b6.value && b6.value===b3.value))
